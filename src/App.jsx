@@ -69,8 +69,6 @@ function App() {
                 <RouterProvider router={routes}></RouterProvider>
             </QueryClientProvider>
     </UserContextProvider>
-
-    
     </>
   );
 }

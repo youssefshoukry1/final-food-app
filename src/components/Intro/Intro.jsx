@@ -12,7 +12,7 @@ export default function Intro({ scrollToRef }) {
   return (
     <div className="relative h-screen w-full">
                     <div className=' absolute  flex justify-center '>
-          <Lottie animationData={animation} loop={true} className='flex w-56 lg:w-96  '/>
+          <Lottie animationData={animation} loop={true} className='flex w-56 lg:w-96 lg:-my-12  '/>
         </div>
       <video
         src={video}
