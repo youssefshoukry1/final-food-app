@@ -26,6 +26,7 @@ import RandomFood from "./components/RandomFood/RandomFood";
 import Intro from "./components/Intro/Intro";
 import ForgotPassword from "./components/ForgetPassword/ForgotPassword";
 import ResetPasword from "./components/ResetPasword/ResetPasword";
+import Notfound from "./components/Notfound/Notfound";
 
 let query = new QueryClient()
 let routes = createBrowserRouter([
@@ -56,6 +57,7 @@ let routes = createBrowserRouter([
       {path: "Strater/:categorysr", element:<Strater/>},
       {path: "Vegan/:categoryvn", element:<Vegan/>},
       {path: "Vegetarian/:categoryvan", element:<Vegetarian/>},
+      {path:"*", element:<Notfound/>},
     ]
   }
 ])
